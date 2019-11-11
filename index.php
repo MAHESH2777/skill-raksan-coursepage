@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html>
 
@@ -13,6 +14,8 @@
 	<link href="css/responsive-styles.css" type=text/css media=all rel=stylesheet />
 	<link href="css/jquery.mCustomScrollbar.min.css" type=text/css media=all rel=stylesheet />
 	<link href="css/swiper.min.css" type=text/css media=all rel=stylesheet>
+	<?php include 'dbconfig.php'; ?>
+
 	<style>
 		* {
 		  box-sizing: border-box;
@@ -30,6 +33,12 @@
 		  padding: 12px 12px 12px 0;
 		  display: inline-block;
 		}
+		form{
+			padding: 29px 72px;
+		}
+		input{
+			margin:6px 0px;
+		}
 		
 		input[type=submit] {
 		  background-color: #4CAF50;
@@ -38,7 +47,7 @@
 		  border: none;
 		  border-radius: 4px;
 		  cursor: pointer;
-		  float:left;
+		  float: left;
 		}
 		
 		input[type=submit]:hover {
@@ -84,7 +93,33 @@
 			margin-top: 0;
 		  }
 		}
+		@media screen and (max-width: 720px) {
+	        .desktop-view{
+             display:none;
+			 
+			}
+
+		}
+		@media screen and (min-width: 721px) {
+	        .form-mobile{
+             display:none;
+			 padding-top:10px;
+			}
+			.right-cont-img{
+				margin: 2px 83px;
+			}
+			.contents{
+				padding:10px 70px;
+			}
+		}
 		
+		@media screen and (max-width: 720px) {
+	        form{
+				padding: 48px 41px;
+			}
+			.contents{padding:0px 0px 10px 0px}
+			
+		}
 		</style>
 		
 	<script>
@@ -136,15 +171,14 @@
 </head>
 
 <body>
-<?php include 'dbconfig.php'; ?>
 <?php
 if (isset($_POST['submit'])) {
 $mysqltime = date_create()->format('Y-m-d H:i:s');
-$sql = "INSERT INTO students (name, number,email,city,course,date)
+$sql = "INSERT INTO student_details1 (name, number, email, city, course,date)
 VALUES ('" . $_POST["name"] . "','" . $_POST["number"] . "','" . $_POST["email"] . "','" . $_POST["city"] . "','" . $_POST["course"] . "','" . $mysqltime . "')";
 
 $result = mysqli_query($conn, $sql);
-echo "<script type='text/javascript'>window.top.location='';</script>";
+echo "<script type='text/javascript'>window.top.location='thankyou.html';</script>";
 exit;
 }
 ?> 
@@ -153,11 +187,11 @@ exit;
 			<li class=m_about>JAVA</li>
 			<li class=m_cap>PYTHON</li>
 			<li class=m_pr>UI TECH</li>
-			<li class=m_cl>D & M</li>
-			<li class=m_km>PHP & .NET</li>
+			<li class=m_cl>DIGITAL MARKETING</li>
+			<li class=m_km>DOTNET</li>
 			<li class=m_ot>ANGULAR</li>
-			<li class=m_car>M & L</li>
-			<li class=m_con>CONTACT US</li>
+			<li class=m_car>MACHINE LEARNING	</li>
+			<li class=m_con>PHP</li>
 		</ul>
 	</div>
 	<div class=header>
@@ -176,13 +210,16 @@ exit;
 <p>Email : info@skillmonks.com</p>
 		</div>
 		<!-- <div class=header_block4  style="padding: 20px 10px;">
-		</div> -->	
+
+
+		</div> -->
+		
 	</div>
 	<div class=main_body>
 		<div class=web_blocks>
 			<div class=default_slot>
 				<div class=outer_block name=about_block>
-					<div class="inner_block block1">
+					<div class="inner_block block1" id='one'>
 						<div class="block_content">
 							<h2>JAVA</h2>
 							<span>Self Confidence is the first requisite to great undertakings
@@ -193,9 +230,9 @@ exit;
 					</div>
 				</div>
 				<div class="outer_block" name="cteam_block">
-					<div class="inner_block block5">
+					<div class="inner_block block5 two" id='two'>
 						<div class="block_content">
-							<h2>PHP & .NET</h2>
+							<h2>DOTNET</h2>
 							<span>Leadership and Learning are indispensable to each other
 								<br>
 								<b> – JFK</b>
@@ -206,7 +243,7 @@ exit;
 			</div>
 			<div class=default_slot>
 				<div class=outer_block name=capabilities_block>
-					<div class="inner_block block2">
+					<div class="inner_block block2" id='three'>
 						<div class=block_content>
 							<h2>PYTHON</h2>
 							<span>Nothing great in the world has been accomplished without passion
@@ -217,7 +254,7 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=our_team_block>
-					<div class="inner_block block6">
+					<div class="inner_block block6" id='four'>
 						<div class=block_content>
 							<h2>ANGULAR</h2>
 							<span>A successful team is a group of many hands and one mind
@@ -230,7 +267,7 @@ exit;
 			</div>
 			<div class=default_slot>
 				<div class=outer_block name=products_block>
-					<div class="inner_block block3">
+					<div class="inner_block block3" id='five'>
 						<div class=block_content>
 							<h2>UI TECH</h2>
 							<span>'Great Companies' are built on 'Great Products'
@@ -241,7 +278,7 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=careers_block>
-					<div class="inner_block block7">
+					<div class="inner_block block7" id='six'>
 						<div class=block_content>
 							<h2>M & L</h2>
 							<span>It is never late too be, what you might have been
@@ -254,7 +291,7 @@ exit;
 			</div>
 			<div class=default_slot>
 				<div class=outer_block name=clients_block>
-					<div class="inner_block block4">
+					<div class="inner_block block4" id='seven'>
 						<div class=block_content>
 							<h2>D & M</h2>
 							<span>Care about your customers more than about yourself, and you will do well
@@ -265,7 +302,7 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=contact_block>
-					<div class="inner_block block8">
+					<div class="inner_block block8" id='eight'>
 						<div class=block_content>
 							<h2>CONTACT US</h2>
 							<span>Communication must be HOT - That’s Honest, Open and Two-Way
@@ -280,9 +317,9 @@ exit;
 		<div class=mobile_blocks>
 			<div class=gallery>
 				<div class=outer_block name=about_block>
-					<div class="inner_block block1">
+					<div class="inner_block block1" id='one1'>
 						<div class=block_content>
-							<h2>ABOUT US</h2>
+							<h2>JAVA</h2>
 							<span>Self Confidence is the first requisite to great undertakings
 								<br>
 								<b> - Samuel Johnson</b>
@@ -291,9 +328,9 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=cteam_block>
-					<div class="inner_block block5">
+					<div class="inner_block block5" id='two1'>
 						<div class=block_content>
-							<h2>Key members</h2>
+							<h2>DOTNET</h2>
 							<span>Leadership and Learning are indispensable to each other
 								<br>
 								<b> – JFK</b>
@@ -302,9 +339,9 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=capabilities_block>
-					<div class="inner_block block2">
+					<div class="inner_block block2" id='three1'>
 						<div class=block_content>
-							<h2>CAPABILITIES</h2>
+							<h2>PYTHON</h2>
 							<span>Nothing great in the world has been accomplished without passion
 								<br>
 								<b>- Georg Hegel</b>
@@ -313,9 +350,9 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=our_team_block>
-					<div class="inner_block block6">
-						<div class=block_content>
-							<h2>OUR TEAM</h2>
+					<div class="inner_block block6" id='four1'>
+						<div class=block_content >
+							<h2>ANGULAR</h2>
 							<span>A successful team is a group of many hands and one mind
 								<br>
 								<b>– Bill Bethel</b>
@@ -324,9 +361,9 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=products_block>
-					<div class="inner_block block3">
+					<div class="inner_block block3" id='five1'>
 						<div class=block_content>
-							<h2>PRODUCTS</h2>
+							<h2>UI TECH</h2>
 							<span>Great Companies are built on Great Products
 								<br>
 								<b>- Elon Musk</b>
@@ -335,9 +372,9 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=careers_block>
-					<div class="inner_block block7">
+					<div class="inner_block block7" id='six1'>
 						<div class=block_content>
-							<h2>CAREERS</h2>
+							<h2>MACHINE LEARNING</h2>
 							<span>It is never late too be, what you might have been
 								<br>
 								<b>- George Eliot</b>
@@ -346,9 +383,9 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=clients_block>
-					<div class="inner_block block4">
+					<div class="inner_block block4" id='seven1'>
 						<div class=block_content>
-							<h2>OUR PROCESS</h2>
+							<h2>DIGITAL MARKETING</h2>
 							<span>Care about your customers more than about yourself, and you will do well
 								<br>
 								<b>- Derek Sivers</b>
@@ -357,9 +394,9 @@ exit;
 					</div>
 				</div>
 				<div class=outer_block name=contact_block>
-					<div class="inner_block block8">
+					<div class="inner_block block8" id='eight1'>
 						<div class=block_content>
-							<h2>CONTACT US</h2>
+							<h2>PHP</h2>
 							<span>Communication must be HOT - That’s Honest, Open and Two-Way
 								<br>
 								<b>- Dan Oswald</b>
@@ -379,16 +416,21 @@ exit;
 		</div>
 		<div class="content_block about_block">
 			<div class=content_left>
+				<div class="desktop-view">
 			<?php include 'form.php'; ?>
+                  </div>
 			</div>
 			<div class=content_right>
 			 <a href=# class="close_block close_page">
 					<img src=images/close.png alt="close button" />
 				</a>
 				<div class=content_inner_block>
+				<div class="form-mobile">
+							<?php include 'form.php'; ?>
+							<br>
+							</div>
 
-
-					<h2>About
+					<h2>JAVA
 						<span class=logo_text>
 							<span>Java</span>
 							<span>Course</span>
@@ -396,58 +438,54 @@ exit;
 					</h2>
 					<p>
 						<span class=logo_text>
+							
 						
 						</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
 					<p>
-						<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
-						<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
-						<div class="container">
-						<header class="fancy-title text-center mb-60">
-								<h2>Initial Concepts</h2>
-							</header>
 					<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
 					
-						<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
 
-							<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
-								<div class="iconbox-icon-wrap">
-									<span class="iconbox-icon-container bg-secondary">
-										<span class="iconbox-icon-hover-bg bg-primary"></span>
-										<i class="icon-ion-ios-paper"></i>
-									</span>
-								</div><!-- /.iconbox-icon-wrap -->
-								<div class="contents" style="padding:10px 70px;">
-								 <img src="images/student.png" width="50px" style="margin: 0px 43px;">
-								 <ul style="list-style: none;text-align: start;">
-									<li>lorem text pharetra risus pharetra </li>
-									<li>lorem text pharetra risus pharetra </li>
-									</ul>
-								</div><!-- /.contents -->
-							</div><!-- /.iconbox -->
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/student.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
 
-						</div><!-- /.col-md-4 -->
+					</div><!-- /.col-md-4 -->
 
-						<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
 
-							<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
-								<div class="iconbox-icon-wrap">
-									<span class="iconbox-icon-container bg-secondary">
-										<span class="iconbox-icon-hover-bg bg-primary"></span>
-										<i class="icon-ion-ios-calculator"></i>
-									</span>
-								</div><!-- /.iconbox-icon-wrap -->
-								<div class="contents" style="padding:10px 70px;">
-								<img src="images/book.png" width="50px" style="margin: 0px 43px;">
-								<ul style="list-style: none;text-align: start;">
-									<li>lorem text pharetra risus pharetra </li>
-									<li>lorem text pharetra risus pharetra </li>
-									</ul>
-								</div><!-- /.contents -->
-							</div><!-- /.iconbox -->
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/book.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
 
-						</div><!-- /.col-md-4 -->
-					</div><!-- /.row -->
+					</div><!-- /.col-md-4 -->
 				</div>
+						<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
+						<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
 					<p>
 						<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
 						and is observatory in style.
@@ -467,18 +505,21 @@ exit;
 		</div>
 		<div class="content_block capabilities_block">
 				<div class=content_left>
-				<?php include 'form.php';?>
+				<?php include 'form.php'; ?>
 					</div>
 					<div class=content_right>
 					 <a href=# class="close_block close_page">
 							<img src=images/close.png alt="close button" />
 						</a>
 						<div class=content_inner_block>
-		
+							<div class="form-mobile">
+							<?php include 'form.php'; ?>
+							<br>
+							</div>
 		
 							<h2>About
 								<span class=logo_text>
-									<span>Java</span>
+									<span>Python</span>
 									<span>Course</span>
 								</span>
 							</h2>
@@ -508,7 +549,7 @@ exit;
 		</div>
 		<div class="content_block products_block">
 				<div class=content_left>
-				<?php include 'form.php';?>
+				<?php include 'form.php'; ?>
 						  
 					</div>
 					<div class=content_right>
@@ -516,11 +557,14 @@ exit;
 							<img src=images/close.png alt="close button" />
 						</a>
 						<div class=content_inner_block>
-		
+						<div class="form-mobile">
+							<?php include 'form.php'; ?>
+							<br>
+							</div>
 		
 							<h2>About
 								<span class=logo_text>
-									<span>Java</span>
+									<span>java</span>
 									<span>Course</span>
 								</span>
 							</h2>
@@ -550,19 +594,22 @@ exit;
 		</div>
 		<div class="content_block clients_block">
 				<div class=content_left>
-				<?php include 'form.php';?>
-						  
+				
+				<?php include 'form.php'; ?>
 					</div>
 					<div class=content_right>
 					 <a href=# class="close_block close_page">
 							<img src=images/close.png alt="close button" />
 						</a>
 						<div class=content_inner_block>
-		
+						<div class="form-mobile">
+							<?php include 'form.php'; ?>
+							<br>
+							</div>
 		
 							<h2>About
 								<span class=logo_text>
-									<span>Java</span>
+									<span>java</span>
 									<span>Course</span>
 								</span>
 							</h2>
@@ -592,18 +639,21 @@ exit;
 		</div>
 		<div class="content_block careers_block">
 				<div class=content_left>
-				<?php include 'form.php';?>
+				<?php include 'form.php'; ?>
 					</div>
 					<div class=content_right>
 					 <a href=# class="close_block close_page">
 							<img src=images/close.png alt="close button" />
 						</a>
 						<div class=content_inner_block>
-		
+						<div class="form-mobile">
+							<?php include 'form.php'; ?>
+							<br>
+							</div>
 		
 							<h2>About
 								<span class=logo_text>
-									<span>Java</span>
+									<span>java</span>
 									<span>Course</span>
 								</span>
 							</h2>
@@ -633,7 +683,7 @@ exit;
 		</div>
 		<div class="content_block contact_block">
 				<div class=content_left>
-				<?php include 'form.php';?>
+				<?php include 'form.php'; ?>
 						  
 					</div>
 					<div class=content_right>
@@ -641,11 +691,14 @@ exit;
 							<img src=images/close.png alt="close button" />
 						</a>
 						<div class=content_inner_block>
-		
+						<div class="form-mobile">
+							<?php include 'form.php'; ?>
+							<br>
+							</div>
 		
 							<h2>About
 								<span class=logo_text>
-									<span>Java</span>
+									<span>java</span>
 									<span>Course</span>
 								</span>
 							</h2>
@@ -675,19 +728,22 @@ exit;
 		</div>
 		<div class="content_block cteam_block">
 				<div class=content_left>
-				<?php include 'form.php';?>
-						  
+				
+				<?php include 'form.php'; ?> 
 					</div>
 					<div class=content_right>
 					 <a href=# class="close_block close_page">
 							<img src=images/close.png alt="close button" />
 						</a>
 						<div class=content_inner_block>
-		
+						<div class="form-mobile">
+							<?php include 'form.php'; ?>
+							<br>
+							</div>
 		
 							<h2>About
 								<span class=logo_text>
-									<span>Java</span>
+									<span>java</span>
 									<span>Course</span>
 								</span>
 							</h2>
@@ -717,18 +773,21 @@ exit;
 		</div>
 		<div class="content_block our_team_block">
 				<div class=content_left>
-				<?php include 'form.php';?>
+				<?php include 'form.php'; ?>
 					</div>
 					<div class=content_right>
 					 <a href=# class="close_block close_page">
 							<img src=images/close.png alt="close button" />
 						</a>
 						<div class=content_inner_block>
-		
+						<div class="form-mobile">
+							<?php include 'form.php'; ?>
+							<br>
+							</div>
 		
 							<h2>About
 								<span class=logo_text>
-									<span>Java</span>
+									<span>PHP</span>
 									<span>Course</span>
 								</span>
 							</h2>
@@ -1434,6 +1493,78 @@ exit;
 		if (screen && screen.width < 480) {
 			document.write('<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"><\/script>')
 		}
+	</script>
+	<script>
+	$('#one').click(function(){
+		$('.one').val('JAVA');
+	});
+	$('#one1').click(function(){
+		$('.one').val('JAVA');
+	});
+	</script>
+
+	<script>
+	$('#two').click(function(){
+		$('.two').val('DOTNET');
+	});
+	$('#two1').click(function(){
+		$('.two').val('DOTNET');
+	});
+	</script>
+
+		<script>
+	$('#three').click(function(){
+		$('.three').val('PYTHON');
+	});
+	$('#three1').click(function(){
+		$('.three').val('PYTHON');
+	});
+	</script>
+
+		<script>
+	$('#four').click(function(){
+		$('.four').val('ANGULAR');
+	});
+	$('#four1').click(function(){
+		$('.four').val('ANGULAR');
+	});
+
+	</script>
+
+		<script>
+	$('#five').click(function(){
+		$('.five').val('UI technology');
+	});
+	$('#five1').click(function(){
+		$('.five').val('UI technology');
+	});
+	</script>
+
+		<script>
+	$('#six').click(function(){
+		$('.six').val('MACHINE LEARNING');
+	});
+	$('#six1').click(function(){
+		$('.six').val('MACHINE LEARNING');
+	});
+	</script>
+
+		<script>
+	$('#seven').click(function(){
+		$('.seven').val('DIGITAL MARKETING');
+	});
+	$('#seven1').click(function(){
+		$('.seven').val('DIGITAL MARKETING');
+	});
+	</script>
+	
+	<script>
+	$('#eight').click(function(){
+		$('.eight').val('PHP');
+	});
+	$('#eight1').click(function(){
+		$('.eight').val('PHP');
+	});
 	</script>
 
 	<script src="js/custom-scripts.js" type=text/javascript></script>
