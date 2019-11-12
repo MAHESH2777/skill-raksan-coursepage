@@ -5,7 +5,7 @@
 .web_blocks{display:none;}
 .mobile_blocks{display:block;}
 .main_body{overflow:auto;}
-.content_block{height:auto !important;width:calc(100% - 14px);margin:5px;}
+.content_block{height:auto !important;width:calc(100% - 14px);margin:5px;margin-top: 20%;}
 .content_left{display:none;}
 /*.content_inner_block{height:auto !important;}
 .tab_content{height:auto !important;}*/
@@ -122,7 +122,7 @@ background-size: cover;}
     width: 40%;
 }	
 		
-.header img{width:130px;margin-top: 5px;}
+.header img{width:103px;margin-top: 5px;}
 .header{height:56px;}
 .footer{height:auto;}
 .footer p{line-height:23px;float:none !important;}
@@ -167,7 +167,8 @@ transition: all 200ms ease-in-out;}
 	}
 @media only screen and (min-width: 320px) and (max-width: 760px){
 .header{position:fixed;width:100%;z-index:8;top:0px;-webkit-backface-visibility: hidden;backface-visibility: hidden;transform: translateZ(0);
--webkit-transform: translateZ(0);}
+-webkit-transform: translateZ(0);
+height: 110px;}
 .main_body{padding-top:58px;}
 .careers_content .popup_gen, .feedback_content .popup_gen{width:90%;left:5%;top:5%;height:90%;}
 .careers_content .popup_gen form, .feedback_content .popup_gen form{width:94%;float:none;}

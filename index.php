@@ -100,7 +100,7 @@
 			}
 
 		}
-		@media screen and (min-width: 721px) {
+		@media screen and (min-width: 1023px) {
 	        .form-mobile{
              display:none;
 			 padding-top:10px;
@@ -113,16 +113,51 @@
 			}
 		}
 		
-		@media screen and (max-width: 720px) {
+		@media screen and (max-width: 1030px) {
 	        form{
 				padding: 48px 41px;
 			}
-			.contents{padding:0px 0px 10px 0px}
+			.contents{padding: 1px 5px 10px 5px;}
 			
 		}
+
+
+		@media screen and (max-width: 1030px) and (min-width: 760px){
+
+			.header_block3, .header_block4 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-right: 10px;
+    padding: 20px 3px 10px 27px;
+}
+.contents {
+    padding: 0px 65px 13px 65px;
+}
+img.right-cont-img{
+	    margin: 2px 78px;
+}
+}
+@media screen and (min-width: 1050px){
+.contents {
+    padding: 10px 60px;
+}
+}
+@media screen and (max-width: 668px){
+img.right-cont-img{
+	margin: 1px 40px;
+}
+}
+
+@media screen and (max-width: 1030px) and (min-width:992px){
+	img.right-cont-img{
+	margin: 1px 40px;
+}
+}
+
 		</style>
 		
-	<script>
+	<!-- <script>
 		(function (d, f, k, j, h, c, b) {
 			d.GoogleAnalyticsObject = h;
 			d[h] = d[h] || function () {
@@ -135,7 +170,7 @@
 		})(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga");
 		ga("create", "UA-83920813-1", "auto");
 		ga("send", "pageview");
-	</script>
+	</script> -->
 	<script type=text/javascript>
 		window.smartlook || (function (f) {
 			var b = smartlook = function () {
@@ -454,7 +489,7 @@ exit;
 								</span>
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
-							 <img src="images/student.png" width="50px" class="right-cont-img">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
 							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
 								<li>lorem text pharetra risus pharetra </li>
@@ -474,7 +509,7 @@ exit;
 								</span>
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
-							<img src="images/book.png" width="50px" class="right-cont-img">
+							<img src="images/discount.png" width="50px" class="right-cont-img">
 							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
 								<li>lorem text pharetra risus pharetra </li>
@@ -490,10 +525,7 @@ exit;
 						<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
 						and is observatory in style.
 						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
-					<p>
-						<span class="r_red">W</span>e have a unique ‘IBC’ recurring value business model: ‘Ideate – Build – Capitalize’.
-						<span class="r_red">W</span>e build scalable platforms and assign an able senior team to scale it up, while moving on to a new idea to
-						be incubated into the next big thing.</p>
+			
 					<div class=sub_content_block>
 					
 						<p>
@@ -508,44 +540,84 @@ exit;
 				<?php include 'form.php'; ?>
 					</div>
 					<div class=content_right>
-					 <a href=# class="close_block close_page">
-							<img src=images/close.png alt="close button" />
-						</a>
-						<div class=content_inner_block>
-							<div class="form-mobile">
+			 <a href=# class="close_block close_page">
+					<img src=images/close.png alt="close button" />
+				</a>
+				<div class=content_inner_block>
+				<div class="form-mobile">
 							<?php include 'form.php'; ?>
 							<br>
 							</div>
-		
-							<h2>About
-								<span class=logo_text>
-									<span>Python</span>
-									<span>Course</span>
-								</span>
-							</h2>
-							<p>
-								<span class=logo_text>
-								
-								</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
-							<p>
-								<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
-								<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
-							<p>
-								<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
-								and is observatory in style.
-								<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
-							<p>
-								<span class="r_red">W</span>e have a unique ‘IBC’ recurring value business model: ‘Ideate – Build – Capitalize’.
-								<span class="r_red">W</span>e build scalable platforms and assign an able senior team to scale it up, while moving on to a new idea to
-								be incubated into the next big thing.</p>
-							<div class=sub_content_block>
+
+					<h2>JAVA
+						<span class=logo_text>
+							<span>Java</span>
+							<span>Course</span>
+						</span>
+					</h2>
+					<p>
+						<span class=logo_text>
 							
-								<p>
-									<span class=r_red>infinity</span>
-									<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-							</div>
-						</div>
+						
+						</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
+					<p>
+					<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+						<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
+						<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
+					<p>
+						<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
+						and is observatory in style.
+						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
+			
+					<div class=sub_content_block>
+					
+						<p>
+							<span class=r_red>infinity</span>
+							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
 					</div>
+				</div>
+			</div>
 		</div>
 		<div class="content_block products_block">
 				<div class=content_left>
@@ -553,44 +625,84 @@ exit;
 						  
 					</div>
 					<div class=content_right>
-					 <a href=# class="close_block close_page">
-							<img src=images/close.png alt="close button" />
-						</a>
-						<div class=content_inner_block>
-						<div class="form-mobile">
+			 <a href=# class="close_block close_page">
+					<img src=images/close.png alt="close button" />
+				</a>
+				<div class=content_inner_block>
+				<div class="form-mobile">
 							<?php include 'form.php'; ?>
 							<br>
 							</div>
-		
-							<h2>About
-								<span class=logo_text>
-									<span>java</span>
-									<span>Course</span>
-								</span>
-							</h2>
-							<p>
-								<span class=logo_text>
-								
-								</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
-							<p>
-								<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
-								<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
-							<p>
-								<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
-								and is observatory in style.
-								<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
-							<p>
-								<span class="r_red">W</span>e have a unique ‘IBC’ recurring value business model: ‘Ideate – Build – Capitalize’.
-								<span class="r_red">W</span>e build scalable platforms and assign an able senior team to scale it up, while moving on to a new idea to
-								be incubated into the next big thing.</p>
-							<div class=sub_content_block>
+
+					<h2>JAVA
+						<span class=logo_text>
+							<span>Java</span>
+							<span>Course</span>
+						</span>
+					</h2>
+					<p>
+						<span class=logo_text>
 							
-								<p>
-									<span class=r_red>infinity</span>
-									<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-							</div>
-						</div>
+						
+						</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
+					<p>
+					<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/discount.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+						<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
+						<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
+					<p>
+						<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
+						and is observatory in style.
+						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
+			
+					<div class=sub_content_block>
+					
+						<p>
+							<span class=r_red>infinity</span>
+							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
 					</div>
+				</div>
+			</div>
 		</div>
 		<div class="content_block clients_block">
 				<div class=content_left>
@@ -598,88 +710,168 @@ exit;
 				<?php include 'form.php'; ?>
 					</div>
 					<div class=content_right>
-					 <a href=# class="close_block close_page">
-							<img src=images/close.png alt="close button" />
-						</a>
-						<div class=content_inner_block>
-						<div class="form-mobile">
+			 <a href=# class="close_block close_page">
+					<img src=images/close.png alt="close button" />
+				</a>
+				<div class=content_inner_block>
+				<div class="form-mobile">
 							<?php include 'form.php'; ?>
 							<br>
 							</div>
-		
-							<h2>About
-								<span class=logo_text>
-									<span>java</span>
-									<span>Course</span>
-								</span>
-							</h2>
-							<p>
-								<span class=logo_text>
-								
-								</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
-							<p>
-								<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
-								<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
-							<p>
-								<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
-								and is observatory in style.
-								<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
-							<p>
-								<span class="r_red">W</span>e have a unique ‘IBC’ recurring value business model: ‘Ideate – Build – Capitalize’.
-								<span class="r_red">W</span>e build scalable platforms and assign an able senior team to scale it up, while moving on to a new idea to
-								be incubated into the next big thing.</p>
-							<div class=sub_content_block>
+
+					<h2>JAVA
+						<span class=logo_text>
+							<span>Java</span>
+							<span>Course</span>
+						</span>
+					</h2>
+					<p>
+						<span class=logo_text>
 							
-								<p>
-									<span class=r_red>infinity</span>
-									<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-							</div>
-						</div>
+						
+						</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
+					<p>
+					<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/proven-expart.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/quality.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+						<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
+						<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
+					<p>
+						<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
+						and is observatory in style.
+						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
+			
+					<div class=sub_content_block>
+					
+						<p>
+							<span class=r_red>infinity</span>
+							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
 					</div>
+				</div>
+			</div>
 		</div>
 		<div class="content_block careers_block">
 				<div class=content_left>
 				<?php include 'form.php'; ?>
 					</div>
 					<div class=content_right>
-					 <a href=# class="close_block close_page">
-							<img src=images/close.png alt="close button" />
-						</a>
-						<div class=content_inner_block>
-						<div class="form-mobile">
+			 <a href=# class="close_block close_page">
+					<img src=images/close.png alt="close button" />
+				</a>
+				<div class=content_inner_block>
+				<div class="form-mobile">
 							<?php include 'form.php'; ?>
 							<br>
 							</div>
-		
-							<h2>About
-								<span class=logo_text>
-									<span>java</span>
-									<span>Course</span>
-								</span>
-							</h2>
-							<p>
-								<span class=logo_text>
-								
-								</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
-							<p>
-								<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
-								<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
-							<p>
-								<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
-								and is observatory in style.
-								<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
-							<p>
-								<span class="r_red">W</span>e have a unique ‘IBC’ recurring value business model: ‘Ideate – Build – Capitalize’.
-								<span class="r_red">W</span>e build scalable platforms and assign an able senior team to scale it up, while moving on to a new idea to
-								be incubated into the next big thing.</p>
-							<div class=sub_content_block>
+
+					<h2>JAVA
+						<span class=logo_text>
+							<span>Java</span>
+							<span>Course</span>
+						</span>
+					</h2>
+					<p>
+						<span class=logo_text>
 							
-								<p>
-									<span class=r_red>infinity</span>
-									<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-							</div>
-						</div>
+						
+						</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
+					<p>
+					<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/discount.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+						<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
+						<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
+					<p>
+						<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
+						and is observatory in style.
+						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
+			
+					<div class=sub_content_block>
+					
+						<p>
+							<span class=r_red>infinity</span>
+							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
 					</div>
+				</div>
+			</div>
 		</div>
 		<div class="content_block contact_block">
 				<div class=content_left>
@@ -687,44 +879,84 @@ exit;
 						  
 					</div>
 					<div class=content_right>
-					 <a href=# class="close_block close_page">
-							<img src=images/close.png alt="close button" />
-						</a>
-						<div class=content_inner_block>
-						<div class="form-mobile">
+			 <a href=# class="close_block close_page">
+					<img src=images/close.png alt="close button" />
+				</a>
+				<div class=content_inner_block>
+				<div class="form-mobile">
 							<?php include 'form.php'; ?>
 							<br>
 							</div>
-		
-							<h2>About
-								<span class=logo_text>
-									<span>java</span>
-									<span>Course</span>
-								</span>
-							</h2>
-							<p>
-								<span class=logo_text>
-								
-								</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
-							<p>
-								<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
-								<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
-							<p>
-								<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
-								and is observatory in style.
-								<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
-							<p>
-								<span class="r_red">W</span>e have a unique ‘IBC’ recurring value business model: ‘Ideate – Build – Capitalize’.
-								<span class="r_red">W</span>e build scalable platforms and assign an able senior team to scale it up, while moving on to a new idea to
-								be incubated into the next big thing.</p>
-							<div class=sub_content_block>
+
+					<h2>JAVA
+						<span class=logo_text>
+							<span>Java</span>
+							<span>Course</span>
+						</span>
+					</h2>
+					<p>
+						<span class=logo_text>
 							
-								<p>
-									<span class=r_red>infinity</span>
-									<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-							</div>
-						</div>
+						
+						</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
+					<p>
+					<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+						<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
+						<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
+					<p>
+						<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
+						and is observatory in style.
+						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
+			
+					<div class=sub_content_block>
+					
+						<p>
+							<span class=r_red>infinity</span>
+							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
 					</div>
+				</div>
+			</div>
 		</div>
 		<div class="content_block cteam_block">
 				<div class=content_left>
@@ -732,88 +964,168 @@ exit;
 				<?php include 'form.php'; ?> 
 					</div>
 					<div class=content_right>
-					 <a href=# class="close_block close_page">
-							<img src=images/close.png alt="close button" />
-						</a>
-						<div class=content_inner_block>
-						<div class="form-mobile">
+			 <a href=# class="close_block close_page">
+					<img src=images/close.png alt="close button" />
+				</a>
+				<div class=content_inner_block>
+				<div class="form-mobile">
 							<?php include 'form.php'; ?>
 							<br>
 							</div>
-		
-							<h2>About
-								<span class=logo_text>
-									<span>java</span>
-									<span>Course</span>
-								</span>
-							</h2>
-							<p>
-								<span class=logo_text>
-								
-								</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
-							<p>
-								<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
-								<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
-							<p>
-								<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
-								and is observatory in style.
-								<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
-							<p>
-								<span class="r_red">W</span>e have a unique ‘IBC’ recurring value business model: ‘Ideate – Build – Capitalize’.
-								<span class="r_red">W</span>e build scalable platforms and assign an able senior team to scale it up, while moving on to a new idea to
-								be incubated into the next big thing.</p>
-							<div class=sub_content_block>
+
+					<h2>JAVA
+						<span class=logo_text>
+							<span>Java</span>
+							<span>Course</span>
+						</span>
+					</h2>
+					<p>
+						<span class=logo_text>
 							
-								<p>
-									<span class=r_red>infinity</span>
-									<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-							</div>
-						</div>
+						
+						</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
+					<p>
+					<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/discount.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+						<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
+						<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
+					<p>
+						<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
+						and is observatory in style.
+						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
+			
+					<div class=sub_content_block>
+					
+						<p>
+							<span class=r_red>infinity</span>
+							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
 					</div>
+				</div>
+			</div>
 		</div>
 		<div class="content_block our_team_block">
 				<div class=content_left>
 				<?php include 'form.php'; ?>
 					</div>
 					<div class=content_right>
-					 <a href=# class="close_block close_page">
-							<img src=images/close.png alt="close button" />
-						</a>
-						<div class=content_inner_block>
-						<div class="form-mobile">
+			 <a href=# class="close_block close_page">
+					<img src=images/close.png alt="close button" />
+				</a>
+				<div class=content_inner_block>
+				<div class="form-mobile">
 							<?php include 'form.php'; ?>
 							<br>
 							</div>
-		
-							<h2>About
-								<span class=logo_text>
-									<span>PHP</span>
-									<span>Course</span>
-								</span>
-							</h2>
-							<p>
-								<span class=logo_text>
-								
-								</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
-							<p>
-								<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
-								<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
-							<p>
-								<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
-								and is observatory in style.
-								<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
-							<p>
-								<span class="r_red">W</span>e have a unique ‘IBC’ recurring value business model: ‘Ideate – Build – Capitalize’.
-								<span class="r_red">W</span>e build scalable platforms and assign an able senior team to scale it up, while moving on to a new idea to
-								be incubated into the next big thing.</p>
-							<div class=sub_content_block>
+
+					<h2>JAVA
+						<span class=logo_text>
+							<span>Java</span>
+							<span>Course</span>
+						</span>
+					</h2>
+					<p>
+						<span class=logo_text>
 							
-								<p>
-									<span class=r_red>infinity</span>
-									<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-							</div>
-						</div>
+						
+						</span>SKILL MONKS is an integrated incubator for globally scalable SaaS platforms/startups.</p>
+					<p>
+					<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+								<li>lorem text pharetra risus pharetra </li>
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+						<span class="r_red">W</span>e discover, ideate, engineer and incubate scalable SaaS platforms in-house.
+						<span class="r_red">W</span>e own 100% equity in our in-house incubated platforms/startups. </p>
+					<p>
+						<span class="r_red">W</span>e believe that the present model of incubation is not experiential, patches resources, borrows temporary skillsets
+						and is observatory in style.
+						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
+			
+					<div class=sub_content_block>
+					
+						<p>
+							<span class=r_red>infinity</span>
+							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
 					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class=footer>
