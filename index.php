@@ -283,7 +283,7 @@ exit;
 							<h2>PYTHON</h2>
 							<span>Nothing great in the world has been accomplished without passion
 								<br>
-								<b>- Georg Hegel</b>
+								<b>-Georg Hegel</b>
 							</span>
 						</div>
 					</div>
@@ -339,7 +339,7 @@ exit;
 				<div class=outer_block name=contact_block>
 					<div class="inner_block block8" id='eight'>
 						<div class=block_content>
-							<h2>CONTACT US</h2>
+							<h2>PHP</h2>
 							<span>Communication must be HOT - That’s Honest, Open and Two-Way
 								<br>
 								<b>- Dan Oswald</b>
@@ -489,10 +489,52 @@ exit;
 								</span>
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
+							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+						
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+					
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+				<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
 							 <img src="images/quality.png" width="50px" class="right-cont-img">
 							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+							
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -512,7 +554,7 @@ exit;
 							<img src="images/discount.png" width="50px" class="right-cont-img">
 							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -526,12 +568,7 @@ exit;
 						and is observatory in style.
 						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
 			
-					<div class=sub_content_block>
-					
-						<p>
-							<span class=r_red>infinity</span>
-							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -576,7 +613,7 @@ exit;
 							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
 							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -596,7 +633,49 @@ exit;
 							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
 							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+					
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+				<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+							
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/discount.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -610,12 +689,7 @@ exit;
 						and is observatory in style.
 						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
 			
-					<div class=sub_content_block>
-					
-						<p>
-							<span class=r_red>infinity</span>
-							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -658,10 +732,52 @@ exit;
 								</span>
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
+							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+						
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+					
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+				<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
 							 <img src="images/quality.png" width="50px" class="right-cont-img">
 							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+							
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -681,7 +797,7 @@ exit;
 							<img src="images/discount.png" width="50px" class="right-cont-img">
 							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -695,12 +811,7 @@ exit;
 						and is observatory in style.
 						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
 			
-					<div class=sub_content_block>
-					
-						<p>
-							<span class=r_red>infinity</span>
-							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -743,10 +854,10 @@ exit;
 								</span>
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
-							 <img src="images/proven-expart.png" width="50px" class="right-cont-img">
+							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
 							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -763,10 +874,52 @@ exit;
 								</span>
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
-							<img src="images/quality.png" width="50px" class="right-cont-img">
+							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
 							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+					
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+				<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+							
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/discount.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -780,12 +933,7 @@ exit;
 						and is observatory in style.
 						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
 			
-					<div class=sub_content_block>
-					
-						<p>
-							<span class=r_red>infinity</span>
-							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -830,7 +978,49 @@ exit;
 							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
 							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+						
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+					
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+				<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+							
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -850,7 +1040,7 @@ exit;
 							<img src="images/discount.png" width="50px" class="right-cont-img">
 							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -864,12 +1054,7 @@ exit;
 						and is observatory in style.
 						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
 			
-					<div class=sub_content_block>
-					
-						<p>
-							<span class=r_red>infinity</span>
-							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -912,10 +1097,10 @@ exit;
 								</span>
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
-							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
 							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -935,7 +1120,49 @@ exit;
 							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
 							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+					
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+				<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+							
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/discount.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -949,12 +1176,7 @@ exit;
 						and is observatory in style.
 						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
 			
-					<div class=sub_content_block>
-					
-						<p>
-							<span class=r_red>infinity</span>
-							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -1000,7 +1222,49 @@ exit;
 							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
 							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+						
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+					
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+				<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+							
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -1020,7 +1284,7 @@ exit;
 							<img src="images/discount.png" width="50px" class="right-cont-img">
 							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -1034,12 +1298,7 @@ exit;
 						and is observatory in style.
 						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
 			
-					<div class=sub_content_block>
-					
-						<p>
-							<span class=r_red>infinity</span>
-							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-					</div>
+
 				</div>
 			</div>
 		</div>
@@ -1081,10 +1340,10 @@ exit;
 								</span>
 							</div><!-- /.iconbox-icon-wrap -->
 							<div class="contents">
-							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <img src="images/curriculam.png" width="50px" class="right-cont-img">
 							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
-								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -1104,7 +1363,49 @@ exit;
 							<img src="images/proven-expart.png" width="50px" class="right-cont-img">
 							<ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+					
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+				</div>
+				<div class="row ca-initvalues-applied lqd-animations-done" style="display: inline-flex" data-custom-animations="true" data-ca-options="{&quot;triggerHandler&quot;:&quot;inview&quot;,&quot;animationTarget&quot;:&quot;.lqd-column&quot;,&quot;duration&quot;:&quot;1200&quot;,&quot;delay&quot;:&quot;160&quot;,&quot;easing&quot;:&quot;easeOutQuint&quot;,&quot;direction&quot;:&quot;forward&quot;,&quot;initValues&quot;:{&quot;translateX&quot;:-37,&quot;opacity&quot;:0},&quot;animations&quot;:{&quot;translateX&quot;:0,&quot;opacity&quot;:1}}">
+					
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-paper"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							 <img src="images/quality.png" width="50px" class="right-cont-img">
+							 <ul style="list-style: none;text-align: start;">
 								<li>lorem text pharetra risus pharetra </li>
+							
+								</ul>
+							</div><!-- /.contents -->
+						</div><!-- /.iconbox -->
+
+					</div><!-- /.col-md-4 -->
+
+					<div class="lqd-column col-md-6 lqd-unit-animation-done" style="transform: translateX(0px); opacity: 1;">
+
+						<div class="iconbox iconbox-side iconbox-circle iconbox-sm iconbox-heading-sm" data-plugin-options="{&quot;color&quot;: &quot;#fff&quot;}">
+							<div class="iconbox-icon-wrap">
+								<span class="iconbox-icon-container bg-secondary">
+									<span class="iconbox-icon-hover-bg bg-primary"></span>
+									<i class="icon-ion-ios-calculator"></i>
+								</span>
+							</div><!-- /.iconbox-icon-wrap -->
+							<div class="contents">
+							<img src="images/discount.png" width="50px" class="right-cont-img">
+							<ul style="list-style: none;text-align: start;">
+								<li>lorem text pharetra risus pharetra </li>
+						
 								</ul>
 							</div><!-- /.contents -->
 						</div><!-- /.iconbox -->
@@ -1118,12 +1419,7 @@ exit;
 						and is observatory in style.
 						<span class="r_red">S</span>o - we chose to engineer an integrated and experiential process of incubation. </p>
 			
-					<div class=sub_content_block>
-					
-						<p>
-							<span class=r_red>infinity</span>
-							<span class=b_blue>labs</span> is our crucible of innovation and our idea-proving ground, where our most potent product ideas are brewed.</p>
-					</div>
+
 				</div>
 			</div>
 		</div>
