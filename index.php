@@ -56,9 +56,9 @@
 		.header_block3, .header_block4 {
     width: 30%;
     float: left;
-    text-align:center;
+    text-align:left;
     padding-right: 10px;
-    padding: 29px 3px 29px 155px;
+	padding: 24px 3px 24px 155px
 }
 		
 		.container {
@@ -213,20 +213,22 @@ $sql = "INSERT INTO student_details1 (name, number, email, city, course,date)
 VALUES ('" . $_POST["name"] . "','" . $_POST["number"] . "','" . $_POST["email"] . "','" . $_POST["city"] . "','" . $_POST["course"] . "','" . $mysqltime . "')";
 
 $result = mysqli_query($conn, $sql);
-echo "<script type='text/javascript'>window.top.location='thankyou.html';</script>";
+echo "<script type='text/javascript'>
+alert('Thanks For Registring.');
+window.setTimeout(window.location.href = 'https://www.skillmonks.com',5000);</script>";
 exit;
 }
 ?> 
 	<div class=mob_menu>
 		<ul>
-			<li class=m_about>JAVA</li>
-			<li class=m_cap>PYTHON</li>
-			<li class=m_pr>UI TECH</li>
-			<li class=m_cl>DIGITAL MARKETING</li>
-			<li class=m_km>DOTNET</li>
-			<li class=m_ot>ANGULAR</li>
-			<li class=m_car>MACHINE LEARNING	</li>
-			<li class=m_con>PHP</li>
+			<li class=m_about>DATA SCIENCE</li>
+			<li class=m_cap> BIGDATA HADOOP</li>
+			<li class=m_pr> CYBER SECURITY</li>
+			<li class=m_cl>IOS</li>
+			<li class=m_km>AWS+DEVOPS</li>
+			<li class=m_ot>MULTIMEDIA</li>
+			<li class=m_car> DIGITAL MARKETING</li>
+			<li class=m_con>SAP</li>
 		</ul>
 	</div>
 	<div class=header>
@@ -256,7 +258,7 @@ exit;
 				<div class=outer_block name=about_block>
 					<div class="inner_block block1" id='one'>
 						<div class="block_content">
-							<h2>JAVA</h2>
+							<h2>DATA SCIENCE</h2>
 							<span>Self Confidence is the first requisite to great undertakings
 								<br>
 								<b> - Samuel Johnson</b>
@@ -267,7 +269,7 @@ exit;
 				<div class="outer_block" name="cteam_block">
 					<div class="inner_block block5 two" id='two'>
 						<div class="block_content">
-							<h2>DOTNET</h2>
+							<h2>AWS+DEVOPS</h2>
 							<span>Leadership and Learning are indispensable to each other
 								<br>
 								<b> – JFK</b>
@@ -280,7 +282,7 @@ exit;
 				<div class=outer_block name=capabilities_block>
 					<div class="inner_block block2" id='three'>
 						<div class=block_content>
-							<h2>PYTHON</h2>
+							<h2>CYBER SECURITY</h2>
 							<span>Nothing great in the world has been accomplished without passion
 								<br>
 								<b>-Georg Hegel</b>
@@ -291,7 +293,7 @@ exit;
 				<div class=outer_block name=our_team_block>
 					<div class="inner_block block6" id='four'>
 						<div class=block_content>
-							<h2>ANGULAR</h2>
+							<h2>IOS</h2>
 							<span>A successful team is a group of many hands and one mind
 								<br>
 								<b>– Bill Bethel</b>
@@ -304,7 +306,7 @@ exit;
 				<div class=outer_block name=products_block>
 					<div class="inner_block block3" id='five'>
 						<div class=block_content>
-							<h2>UI TECH</h2>
+							<h2>BIGDATA HADOOP</h2>
 							<span>'Great Companies' are built on 'Great Products'
 								<br>
 								<b>- Elon Musk</b>
@@ -315,7 +317,7 @@ exit;
 				<div class=outer_block name=careers_block>
 					<div class="inner_block block7" id='six'>
 						<div class=block_content>
-							<h2>M & L</h2>
+							<h2>MULTIMEDIA</h2>
 							<span>It is never late too be, what you might have been
 								<br>
 								<b>- George Eliot</b>
@@ -328,7 +330,7 @@ exit;
 				<div class=outer_block name=clients_block>
 					<div class="inner_block block4" id='seven'>
 						<div class=block_content>
-							<h2>D & M</h2>
+							<h2>DIGITAL MARKETING</h2>
 							<span>Care about your customers more than about yourself, and you will do well
 								<br>
 								<b>- Derek Sivers</b>
@@ -339,7 +341,7 @@ exit;
 				<div class=outer_block name=contact_block>
 					<div class="inner_block block8" id='eight'>
 						<div class=block_content>
-							<h2>PHP</h2>
+							<h2>SAP</h2>
 							<span>Communication must be HOT - That’s Honest, Open and Two-Way
 								<br>
 								<b>- Dan Oswald</b>
@@ -354,7 +356,7 @@ exit;
 				<div class=outer_block name=about_block>
 					<div class="inner_block block1" id='one1'>
 						<div class=block_content>
-							<h2>JAVA</h2>
+							<h2>DATA SCIENCE</h2>
 							<span>Self Confidence is the first requisite to great undertakings
 								<br>
 								<b> - Samuel Johnson</b>
@@ -365,7 +367,7 @@ exit;
 				<div class=outer_block name=cteam_block>
 					<div class="inner_block block5" id='two1'>
 						<div class=block_content>
-							<h2>DOTNET</h2>
+							<h2>AWS+DEVOPS</h2>
 							<span>Leadership and Learning are indispensable to each other
 								<br>
 								<b> – JFK</b>
@@ -376,7 +378,7 @@ exit;
 				<div class=outer_block name=capabilities_block>
 					<div class="inner_block block2" id='three1'>
 						<div class=block_content>
-							<h2>PYTHON</h2>
+							<h2>CYBER SECURITY</h2>
 							<span>Nothing great in the world has been accomplished without passion
 								<br>
 								<b>- Georg Hegel</b>
@@ -387,7 +389,7 @@ exit;
 				<div class=outer_block name=our_team_block>
 					<div class="inner_block block6" id='four1'>
 						<div class=block_content >
-							<h2>ANGULAR</h2>
+							<h2>IOS</h2>
 							<span>A successful team is a group of many hands and one mind
 								<br>
 								<b>– Bill Bethel</b>
@@ -398,7 +400,7 @@ exit;
 				<div class=outer_block name=products_block>
 					<div class="inner_block block3" id='five1'>
 						<div class=block_content>
-							<h2>UI TECH</h2>
+							<h2>BIGDATA HADOOP</h2>
 							<span>Great Companies are built on Great Products
 								<br>
 								<b>- Elon Musk</b>
@@ -409,7 +411,7 @@ exit;
 				<div class=outer_block name=careers_block>
 					<div class="inner_block block7" id='six1'>
 						<div class=block_content>
-							<h2>MACHINE LEARNING</h2>
+							<h2>MULTIMUDIA</h2>
 							<span>It is never late too be, what you might have been
 								<br>
 								<b>- George Eliot</b>
@@ -431,7 +433,7 @@ exit;
 				<div class=outer_block name=contact_block>
 					<div class="inner_block block8" id='eight1'>
 						<div class=block_content>
-							<h2>PHP</h2>
+							<h2>SAP</h2>
 							<span>Communication must be HOT - That’s Honest, Open and Two-Way
 								<br>
 								<b>- Dan Oswald</b>
@@ -465,10 +467,10 @@ exit;
 							<br>
 							</div>
 
-					<h2>JAVA
+					<h2>DATA 
 						<span class=logo_text>
-							<span>Java</span>
-							<span>Course</span>
+							<span>SCIENCE</span>
+							<span>COURSE</span>
 						</span>
 					</h2>
 					<p>
@@ -586,10 +588,10 @@ exit;
 							<br>
 							</div>
 
-					<h2>JAVA
+					<h2>CYBER 
 						<span class=logo_text>
-							<span>Java</span>
-							<span>Course</span>
+							<span>SECURITY</span>
+							<span>COURSE</span>
 						</span>
 					</h2>
 					<p>
@@ -708,10 +710,10 @@ exit;
 							<br>
 							</div>
 
-					<h2>JAVA
+					<h2>BIGDATA
 						<span class=logo_text>
-							<span>Java</span>
-							<span>Course</span>
+							<span>HADOOP</span>
+							<span>COURSE</span>
 						</span>
 					</h2>
 					<p>
@@ -830,10 +832,10 @@ exit;
 							<br>
 							</div>
 
-					<h2>JAVA
+					<h2>DIGITAL
 						<span class=logo_text>
-							<span>Java</span>
-							<span>Course</span>
+							<span>MARKETING</span>
+							<span>COURSE</span>
 						</span>
 					</h2>
 					<p>
@@ -951,10 +953,10 @@ exit;
 							<br>
 							</div>
 
-					<h2>JAVA
+					<h2>MULTI
 						<span class=logo_text>
-							<span>Java</span>
-							<span>Course</span>
+							<span>MEDIA</span>
+							<span>COURSE</span>
 						</span>
 					</h2>
 					<p>
@@ -1073,10 +1075,10 @@ exit;
 							<br>
 							</div>
 
-					<h2>JAVA
+					<h2>
 						<span class=logo_text>
-							<span>Java</span>
-							<span>Course</span>
+							<span>SAP</span>
+							<span>COURSE</span>
 						</span>
 					</h2>
 					<p>
@@ -1195,10 +1197,10 @@ exit;
 							<br>
 							</div>
 
-					<h2>JAVA
+					<h2>AWS+
 						<span class=logo_text>
-							<span>Java</span>
-							<span>Course</span>
+							<span>DEVOPS</span>
+							<span>COURSE</span>
 						</span>
 					</h2>
 					<p>
@@ -1316,10 +1318,10 @@ exit;
 							<br>
 							</div>
 
-					<h2>JAVA
+					<h2>
 						<span class=logo_text>
-							<span>Java</span>
-							<span>Course</span>
+							<span>IOS</span>
+							<span>COURSE</span>
 						</span>
 					</h2>
 					<p>
@@ -1428,8 +1430,8 @@ exit;
 		<p class=left_align>©
 			<span class=r_red>SKILL</span>
 			<span class=b_blue>MONKS</span> Consulting Private Limited. 2019
-			<a href=# class=privacy_popup>Privacy Policy</a>
-			<a href=# class=tc_popup>Terms Of Usage</a>
+			<a href="https://beta.skillmonks.com/privacy-policy" target="-blank">Privacy Policy</a>
+			<a href="https://beta.skillmonks.com/terms-conditions" target="-blank">Terms Of Usage</a>
 		</p>
 		<p class=right_align>
 			
@@ -2104,56 +2106,56 @@ exit;
 	</script>
 	<script>
 	$('#one').click(function(){
-		$('.one').val('JAVA');
+		$('.one').val('DATA SCIENCE');
 	});
 	$('#one1').click(function(){
-		$('.one').val('JAVA');
+		$('.one').val('DATA SCIENCE');
 	});
 	</script>
 
 	<script>
 	$('#two').click(function(){
-		$('.two').val('DOTNET');
+		$('.two').val('AWA+DEVOPS');
 	});
 	$('#two1').click(function(){
-		$('.two').val('DOTNET');
+		$('.two').val('AWA+DEVOPS');
 	});
 	</script>
 
 		<script>
 	$('#three').click(function(){
-		$('.three').val('PYTHON');
+		$('.three').val('CYBER SECURITY');
 	});
 	$('#three1').click(function(){
-		$('.three').val('PYTHON');
+		$('.three').val('CYBER SECURITY');
 	});
 	</script>
 
 		<script>
 	$('#four').click(function(){
-		$('.four').val('ANGULAR');
+		$('.four').val('IOS');
 	});
 	$('#four1').click(function(){
-		$('.four').val('ANGULAR');
+		$('.four').val('IOS');
 	});
 
 	</script>
 
 		<script>
 	$('#five').click(function(){
-		$('.five').val('UI technology');
+		$('.five').val('BIGDATA HADOOP');
 	});
 	$('#five1').click(function(){
-		$('.five').val('UI technology');
+		$('.five').val('BIGDATA HADOOP');
 	});
 	</script>
 
 		<script>
 	$('#six').click(function(){
-		$('.six').val('MACHINE LEARNING');
+		$('.six').val('MULTIMEDIA');
 	});
 	$('#six1').click(function(){
-		$('.six').val('MACHINE LEARNING');
+		$('.six').val('MULTIMEDIA');
 	});
 	</script>
 
@@ -2168,10 +2170,10 @@ exit;
 	
 	<script>
 	$('#eight').click(function(){
-		$('.eight').val('PHP');
+		$('.eight').val('SAP');
 	});
 	$('#eight1').click(function(){
-		$('.eight').val('PHP');
+		$('.eight').val('SAP');
 	});
 	</script>
 
