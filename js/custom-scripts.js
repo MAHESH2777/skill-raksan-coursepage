@@ -60,7 +60,7 @@ $(document).ready(function (e) {
 		}));
 		var n = $(this).attr("name");
 		$(".content_block").css({
-			height: t - 228 + "px"
+			height: t - 220 + "px"
 		}), 801 > o && ($(".content_block").css({
 			height: t - 40 + "px"
 		}), $(".mobile_blocks").fadeOut()), $("." + n).slideDown(), $(".content_block").not($(".content_block." + n)).slideUp(), setTimeout(function () {

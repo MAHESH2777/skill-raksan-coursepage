@@ -33,7 +33,7 @@
 .content_block .v_tabs .tab_content textarea{height:74px;width:94%;}
 .succ_msg{width:93%;float:none;margin-top:10px; padding: 5px 10px 0px 10px;}
 .succ_msg p{line-height:18px;}
-.mobile_blocks .swiper_navigation{ margin-top: -20px;margin-bottom: 50px;}
+.mobile_blocks .swiper_navigation{ margin-top: 36px;margin-bottom: 50px;}
 .mobile_blocks .swiper_navigation .unslider-arrow{background: rgba(0,0,0,.8) no-repeat 50% 50%;background-image: url(../images/download.png);
 background-size: 7px 11px;}
 }
@@ -169,7 +169,7 @@ transition: all 200ms ease-in-out;}
 .header{position:fixed;width:100%;z-index:8;top:0px;-webkit-backface-visibility: hidden;backface-visibility: hidden;transform: translateZ(0);
 -webkit-transform: translateZ(0);
 height: 110px;}
-.main_body{padding-top:58px;}
+.main_body{padding-top:0px;}
 .careers_content .popup_gen, .feedback_content .popup_gen{width:90%;left:5%;top:5%;height:90%;}
 .careers_content .popup_gen form, .feedback_content .popup_gen form{width:94%;float:none;}
 .careers_content .popup_gen form br, .feedback_content .popup_gen form br{display:none;}

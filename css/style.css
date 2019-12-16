@@ -1,0 +1,317 @@
+
+		* {
+		  box-sizing: border-box;
+		}
+		
+		input[type=text], select, textarea {
+		  width: 100%;
+		  padding: 12px;
+		  border: 1px solid #ccc;
+		  border-radius: 4px;
+		  resize: vertical;
+		}
+		
+		label {
+		  padding: 12px 12px 12px 0;
+		  display: inline-block;
+		}
+		form{
+			padding: 29px 72px;
+		}
+		input{
+			margin:6px 0px;
+		}
+		
+		input[type=submit] {
+		  background-color: #4CAF50;
+		  color: white;
+		  padding: 12px 20px;
+		  border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		  float: left;
+		}
+		
+		input[type=submit]:hover {
+		  background-color: #45a049;
+		}
+		.header_block3, .header_block4 {
+    width: 30%;
+    float: left;
+    text-align:left;
+    padding-right: 10px;
+	padding: 24px 3px 24px 155px
+}
+		
+	
+		
+		.col-25 {
+		  float: left;
+		  width: 25%;
+		  margin-top: 6px;
+		}
+		
+		.col-75 {
+		  float: left;
+		  width: 75%;
+		  margin-top: 6px;
+		}
+		
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 600px) {
+		  .col-25, .col-75, input[type=submit] {
+			width: 100%;
+			margin-top: 0;
+		  }
+		}
+		@media screen and (max-width: 720px) {
+	        .desktop-view{
+             display:none;
+			 
+			}
+
+		}
+		@media screen and (min-width: 1023px) {
+	        .form-mobile{
+             display:none;
+			 padding-top:10px;
+			}
+			.right-cont-img{
+				margin: 2px 83px;
+			}
+			.contents{
+				padding:10px 70px;
+			}
+		}
+		
+		@media screen and (max-width: 1030px) {
+	        form{
+				padding: 48px 41px;
+			}
+			.contents{padding: 1px 5px 10px 5px;}
+			
+		}
+
+
+		@media screen and (max-width: 1030px) and (min-width: 760px){
+
+			.header_block3, .header_block4 {
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-right: 10px;
+    padding: 20px 3px 10px 27px;
+}
+.contents {
+    padding: 0px 65px 13px 65px;
+}
+img.right-cont-img{
+	    margin: 2px 78px;
+}
+}
+@media screen and (min-width: 1050px){
+.contents {
+       padding: 10px 70px;
+}
+}
+@media screen and (max-width: 668px){
+img.right-cont-img{
+	margin: 1px 40px;
+}
+}
+
+@media screen and (max-width: 1030px) and (min-width:992px){
+	img.right-cont-img{
+	margin: 1px 40px;
+}
+}
+.headone{
+
+    font-size: 21px;
+    margin-top:70px;
+	text-align:center;
+}
+.texthead{
+    font-size: 21px;
+        padding: 16px 6px;
+	text-align:left;
+}
+.whychoose{
+	     font-size: 21px;
+    text-align: left;
+
+    padding: 17px 4px;
+}
+i.fa.fa-check-circle {
+    color: #1f9646;
+    font-size: 19px;
+}
+@media screen and (min-width: 1024px){
+.maintext ul>li{
+padding: 5px 0px;
+}
+	.headlogo {
+	background-color: #ffffff;
+    padding: 20px 20px 0px 68px;
+		}
+
+
+#topnav {
+    position: unset;
+    right: 0;
+    height: 70px;
+    left: 0;
+    top: 0;
+    z-index: 1030;
+    background-color: transparent;
+    border: 0;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    box-shadow: 2px 2px 23px -14px;
+}
+#topnav {
+    position: absolute !important;
+}
+@media (min-width: 992px){
+#topnav .navigation-menu > li > a {
+    margin-top: 0px;
+}
+}
+#topnav .navigation-menu > li > a {
+    display: block;
+    color: #3c4858;
+    font-size: 13px;
+    background-color: transparent;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 70px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: "Nunito", sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo-responsive {
+    width: 96px;
+    padding: 5px;
+}
+#topnav .logo {
+    float: left;
+    color: #3c4858 !important;
+    background: #ffffff;
+    border-radius: 100%;
+    padding: 0px;
+}
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 3px 0;
+    letter-spacing: 1px;
+
+}
+#topnav .menu-extras {
+    float: right;
+}
+@media (min-width: 992px){
+#topnav #navigation {
+    display: block !important;
+}
+}
+@media (min-width: 992px){
+#topnav .navigation-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+}
+#topnav .navigation-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#topnav .navigation-menu > li {
+    float: left;
+    margin-top: -20px !important;
+    display: block;
+    position: relative;
+    margin: 0px;
+}
+}
+@media (min-width: 1025px){
+#topnav .navigation-menu > li > a {
+    margin-top: 0px;
+}
+.mobilewhy{
+display:none;
+}
+}
+@media (max-width: 992px){
+.headlogo{
+
+padding:5px;
+text-align:center;
+}
+.maintext ul>li{
+padding: 8px 0px;
+}
+.maintext {
+    padding: 0px 15px;
+}
+.mainlogo{
+width:130px;
+}
+.headone{
+    font-size: 21px;
+margin-top: 30px;
+	text-align:center;
+}
+}
+@media (max-width: 767px){
+.iconbox.iconbox-side.iconbox-circle.iconbox-sm.iconbox-heading-sm {
+    display: none;
+}
+.whychoose{
+	display:none;
+}
+.mobilewhy {
+    padding: 0px 15px;
+}
+.mobilewhy ul>li {
+    padding: 8px 0px;
+}
+.toptext{
+    background-color: #01783d;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+}
+@media (min-width: 768px){
+	div#navigation {
+    FLOAT: right;
+}
+.mobilewhy{
+display:none;
+}
+.toptext{
+    background-color: #01783d;
+    color: white;
+    padding: 10px;
+
+}
+.details{
+    margin-left: 53%;
+}
+}
+		
